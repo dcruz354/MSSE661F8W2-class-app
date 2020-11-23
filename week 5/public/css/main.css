@@ -1,0 +1,17 @@
+.orderdetails-item-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .orderdetail-checkbox {
+    width: 25px;
+    display: flex;
+  }
+  
+  .orderdetail-name,
+  .orderdetail-status {
+    width: 200px;
+  }
+  
