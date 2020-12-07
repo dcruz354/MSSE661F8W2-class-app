@@ -1,0 +1,15 @@
+{
+  "name": "week-7",
+  "version": "1.0.0",
+  "description": "Module 7 - UX Design",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server"
+  },
+  "author": "David Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
