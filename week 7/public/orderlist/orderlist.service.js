@@ -156,9 +156,9 @@ class OrderList {
  /**
    * Create the DOM element for the new order with all its parts.
    *
-   * @param {Object} orer - { orer_name, status } partial status object
+   * @param {Object} order - { order_name, status } partial status object
    */
-  _createNewOrderEl = (orer) => {
+  _createNewOrderEl = (order) => {
     const order_number = this.orders.length;
     const created_date = new Date().toISOString();
     const newOrder = { ...order, order_number, created_date };

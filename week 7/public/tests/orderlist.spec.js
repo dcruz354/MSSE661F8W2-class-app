@@ -26,7 +26,7 @@ describe('Order App', () => {
     expect(order.orders.length).toBe(1);
   });
 
-  xit('should delete a order', async () => {
+  it('should delete a order', async () => {
     const existingOrder = {
       order_number: 0,
       order_name: 'Third Order',
