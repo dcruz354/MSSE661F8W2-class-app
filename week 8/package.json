@@ -1,0 +1,15 @@
+{
+  "name": "week-8",
+  "version": "1.0.0",
+  "description": "Module 8 - Finishing w/ Web Frameworks",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server"
+  },
+  "author": "David Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
